@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ESG Portal</title>
+    <link rel="stylesheet" href="ESG.CSS">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 ESG Portal Dashboard</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- Input Form -->
+        <div class="form-section">
+            <h2>Enter ESG Data</h2>
+
+            <label>Environmental Score:</label>
+            <input type="number" id="env">
+
+            <label>Social Score:</label>
+            <input type="number" id="soc">
+
+            <label>Governance Score:</label>
+            <input type="number" id="gov">
+
+            <button onclick="calculateESG()">Calculate ESG</button>
+        </div>
+
+        <!-- Result Section -->
+        <div class="result-section">
+            <h2>Result</h2>
+            <p id="result">Your ESG Score will appear here</p>
+        </div>
+
+    </div>
+
+    <script src="ESG.JAVA"></script>
+</body>
+</html>
